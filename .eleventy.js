@@ -1,5 +1,5 @@
 module.exports = {
   dir: {
-    output: "docs"
+    output: "build"
   }
 };
