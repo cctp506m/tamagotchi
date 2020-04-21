@@ -11,7 +11,7 @@ module.exports = function( eleventyConfig ) {
   // Eleventy options.
   return {
     dir: {
-      output:   "build",
+      output:   "docs",
       includes: "_includes",
       layouts:  "_layouts"
     }
