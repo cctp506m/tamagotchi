@@ -14,6 +14,8 @@ module.exports = function( eleventyConfig ) {
       output:   "docs",
       includes: "_includes",
       layouts:  "_layouts"
-    }
+    },
+
+    pathPrefix: "/tamagotchi/"
   };
 };
