@@ -16,6 +16,6 @@ module.exports = function( eleventyConfig ) {
       layouts:  "_layouts"
     },
 
-    pathPrefix: "/tamagotchi/"
+    pathPrefix: "/tamagotchi"
   };
 };
