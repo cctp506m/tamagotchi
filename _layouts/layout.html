@@ -24,10 +24,23 @@ title: The Original Tamagotchi
 <body>
 
   <div class="tama-container">
-    {% include "header" %}
-    {% include "navigation" %}
-    {% include "main" %}
-    {% include "footer" %}
+
+    <header class="tama-region tama-header">
+      {% include "header" %}
+    </header>
+
+    <nav class="tama-region tama-nav">
+      {% include "navigation" %}
+    </nav>
+
+    <main class="tama-region tama-main">
+      {% include "main" %}
+    </main>
+
+    <footer class="tama-region tama-footer">
+      {% include "footer" %}
+    </footer>
+
   </div>
 
 </body>

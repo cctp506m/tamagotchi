@@ -1,11 +1,14 @@
 @import 'variables/color';
+@import 'variables/spacing';
 @import 'variables/typography';
 
 @import 'atom/typography';
+@import 'atom/nav-link';
 
-@import 'molecule/nav-link';
-
+@import 'organism/header';
 @import 'organism/nav';
+@import 'organism/main';
+@import 'organism/footer';
 
-@import 'page/base';
-@import 'page/layout';
+@import 'template/base';
+@import 'template/layout';
