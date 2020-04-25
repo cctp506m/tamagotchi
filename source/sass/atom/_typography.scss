@@ -1,0 +1,23 @@
+body {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: $body-font;
+}
+
+
+
+a {
+  color: $link-text;
+
+  &:focus,
+  &:hover {
+    color: $link-text-hover;
+    text-decoration: none;
+  }
+}
+
+
+
+h1 {
+  font-family: $baloo;
+}
