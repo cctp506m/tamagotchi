@@ -1,0 +1,18 @@
+&-nav {
+  &-link {
+    display: block;
+    padding: 0.5rem;
+    background-color: $nav-link-bg;
+    border: 2px outset $nav-link-border;
+    box-shadow: $nav-link-shadow;
+    color: $nav-link-text;
+    line-height: 1;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      box-shadow: $nav-link-shadow-hover;
+      color: $nav-link-text-hover;
+    }
+  }
+}

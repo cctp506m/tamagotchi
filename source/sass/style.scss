@@ -2,6 +2,9 @@
 @import 'variables/spacing';
 @import 'variables/typography';
 
+@import 'atom/typography';
+@import 'atom/image';
+
 .tama {
 
   @import 'template/base';
@@ -13,9 +16,7 @@
   @import 'organism/footer';
 
   @import 'molecule/box';
-
-  @import 'atom/typography';
-  @import 'atom/image';
+  @import 'molecule/nav-menu';
 
   @import 'atom/nav-link';
   @import 'atom/footer-link';
