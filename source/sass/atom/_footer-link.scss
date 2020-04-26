@@ -9,11 +9,18 @@ $cct-size: 2rem;
     align-items: end;
     width: 5rem;
     border: 2px outset $cct-button-border;
+    box-shadow: $cct-button-shadow;
     background-color: $cct-button-bg;
     color: $cct-button-text;
     font-size: 0.75rem;
     line-height: 1;
     font-family: $cct-button-font;
     text-decoration: none;
+
+    &:focus,
+    &:hover {
+      box-shadow: $cct-button-shadow-hover;
+      color: $cct-button-text-hover;
+    }
   }
 }

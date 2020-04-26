@@ -4,18 +4,20 @@
 
 .tama {
 
-  @import 'atom/typography';
-  @import 'atom/image';
-
-  @import 'atom/nav-link';
-  @import 'atom/footer-link';
+  @import 'template/base';
+  @import 'template/layout';
 
   @import 'organism/header';
   @import 'organism/nav';
   @import 'organism/main';
   @import 'organism/footer';
 
-  @import 'template/base';
-  @import 'template/layout';
+  @import 'molecule/box';
+
+  @import 'atom/typography';
+  @import 'atom/image';
+
+  @import 'atom/nav-link';
+  @import 'atom/footer-link';
 
 }
