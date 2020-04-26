@@ -1,0 +1,25 @@
+$breakpoints: (
+  sm: 320px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1800px ) !default;
+
+
+
+$space:                  1rem;
+
+$h-space:                $space;
+$v-space:                $space;
+
+$container-space:        $space;
+$container-grid-space:   $space;
+$container-space-top:    $container-space;
+$container-space-right:  $container-space;
+$container-space-bottom: $container-space;
+$container-space-left:   $container-space;
+
+$region-space:           $space;
+$region-space-top:       $region-space * 2;
+$region-space-right:     $region-space;
+$region-space-bottom:    $region-space;
+$region-space-left:      $region-space;

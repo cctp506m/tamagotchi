@@ -1,9 +1,11 @@
 @import 'variables/color';
-@import 'variables/spacing';
+@import 'variables/sizing';
 @import 'variables/typography';
 
 @import 'atom/typography';
 @import 'atom/image';
+
+@import '../../node_modules/include-media/dist/include-media';
 
 .tama {
 
@@ -15,7 +17,6 @@
   @import 'organism/main';
   @import 'organism/footer';
 
-  @import 'molecule/box';
   @import 'molecule/nav-menu';
 
   @import 'atom/nav-link';

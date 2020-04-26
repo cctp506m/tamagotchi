@@ -11,6 +11,7 @@
 
     &:focus,
     &:hover {
+      background-color: $nav-link-bg-hover;
       box-shadow: $nav-link-shadow-hover;
       color: $nav-link-text-hover;
     }
