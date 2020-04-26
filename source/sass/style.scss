@@ -2,13 +2,20 @@
 @import 'variables/spacing';
 @import 'variables/typography';
 
-@import 'atom/typography';
-@import 'atom/nav-link';
+.tama {
 
-@import 'organism/header';
-@import 'organism/nav';
-@import 'organism/main';
-@import 'organism/footer';
+  @import 'atom/typography';
+  @import 'atom/image';
 
-@import 'template/base';
-@import 'template/layout';
+  @import 'atom/nav-link';
+  @import 'atom/footer-link';
+
+  @import 'organism/header';
+  @import 'organism/nav';
+  @import 'organism/main';
+  @import 'organism/footer';
+
+  @import 'template/base';
+  @import 'template/layout';
+
+}

@@ -1,21 +1,30 @@
-$white:           #fff;
-$black:           #000;
+$white:             #fff;
+$black:             #000;
 
-$main:            #8f9cbc;
-$accent-light:    #e1d7d6;
-$accent-dark:     #ab5374;
-$shade-light:     #f0b747;
-$shade-dark:      #2c2a2d;
+$cct:               #5cbdea;
+
+$main:              #8f9cbc;
+$accent-light:      #e1d7d6;
+$accent-dark:       #ab5374;
+$shade-light:       #f0b747;
+$shade-dark:        #2c2a2d;
 
 
 
-$body-bg-color:   $white;
-$body-bg-image:   linear-gradient(
-                    135deg,
-                    rgba( 171, 83, 116, 0.25 ) 15%,
-                    rgba( 240, 183, 71, 0.25 ) 50%,
-                    rgba( 143, 156, 188, 0.25 ) 85% );
-$body-text:       $shade-dark;
+// Base body.
+$body-bg-color:     $white;
+$body-bg-image:     linear-gradient(
+                      135deg,
+                      rgba( 171, 83, 116, 0.25 ) 15%,
+                      rgba( 240, 183, 71, 0.25 ) 50%,
+                      rgba( 143, 156, 188, 0.25 ) 85% );
+$body-text:         $shade-dark;
 
-$link-text:       $accent-dark;
-$link-text-hover: darken( $accent-dark, 15% );
+// Base links.
+$link-text:         $accent-dark;
+$link-text-hover:   darken( $accent-dark, 15% );
+
+// Footer.
+$cct-button-bg:     $cct;
+$cct-button-border: darken( $cct-button-bg, 15% );
+$cct-button-text:   $white;

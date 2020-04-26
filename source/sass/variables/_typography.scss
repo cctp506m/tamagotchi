@@ -2,9 +2,13 @@
 
 $baloo: 'Baloo 2', cursive;
 $lato:  'Lato', sans-serif;
+$prime: 'Courier Prime', monospace;
 
 
 
 // Site declarations.
-$body-font:    $lato;
-$heading-font: $baloo;
+$body-font:       $lato;
+$heading-font:    $baloo;
+
+// Link variants.
+$cct-button-font: $prime;

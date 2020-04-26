@@ -1,17 +1,13 @@
-.tama {
+&-container {
+  display: grid;
+  grid-gap: $container-grid-space;
+  margin: 0;
+  padding: 0;
+}
 
-  &-container {
-    display: grid;
-    grid-gap: $container-grid-space;
-    margin: 0;
-    padding: 0;
-  }
-
-  &-region {
-    padding-top: $v-space;
-    padding-right: $h-space;
-    padding-bottom: $v-space;
-    padding-left: $h-space;
-  }
-
+&-region {
+  padding-top: $v-space;
+  padding-right: $h-space;
+  padding-bottom: $v-space;
+  padding-left: $h-space;
 }
