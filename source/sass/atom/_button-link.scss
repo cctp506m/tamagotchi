@@ -1,0 +1,24 @@
+$cct-size: 2rem;
+
+.cct-button {
+  display: inline-block;
+  border: 2px outset $cct-button-border;
+  box-shadow: $cct-button-shadow;
+  background-color: $cct-button-bg;
+  color: $cct-button-text;
+  font-size: 0.9rem;
+  line-height: 1;
+  font-family: $cct-button-font;
+  text-decoration: none;
+
+  img {
+    display: inline-block;
+    max-height: 2rem;
+  }
+
+  &:focus,
+  &:hover {
+    box-shadow: $cct-button-shadow-hover;
+    color: $cct-button-text-hover;
+  }
+}
