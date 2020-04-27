@@ -63,6 +63,16 @@ $nav-link-text-hover:     $dark;
 
 
 
+// Main.
+
+// Status bar.
+$status-bar-border:       $dark;
+$status-bar-link-border:  $dark;
+$status-bar-link-bg:      lighten( $dust, 10% );
+$status-bar-link-text:    $dark;
+
+
+
 // Button links.
 $button-bg:               $dust;
 $button-bg-hover:         darken( $button-bg, 3% );

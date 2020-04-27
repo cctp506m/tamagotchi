@@ -1,0 +1,39 @@
+.status-bar {
+
+  @include media( '<lg' ) {
+    display: none;
+  }
+
+  @include media( '>lg' ) {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: auto 1fr;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $status-bar-border;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-family: $status-bar-font;
+
+    dl {
+      display: grid;
+      grid-gap: 0.5rem;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    dd {
+      margin-left: 0;
+    }
+
+    a {
+      padding: 0.125rem 0.25rem;
+      border: 2px solid $status-bar-link-border;
+      background-color: $status-bar-link-bg;
+      color: $status-bar-link-text;
+      text-decoration: none;
+    }
+  }
+
+}

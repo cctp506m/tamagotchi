@@ -4,6 +4,7 @@
 
 @import 'atom/typography';
 @import 'atom/image';
+@import 'atom/icons';
 
 @import '../../node_modules/include-media/dist/include-media';
 
@@ -18,6 +19,7 @@
   @import 'organism/footer';
 
   @import 'molecule/nav-menu';
+  @import 'molecule/status-bar';
 
   @import 'atom/nav-link';
   @import 'atom/button-link';
