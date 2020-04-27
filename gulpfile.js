@@ -17,14 +17,14 @@ gulp.task( 'sass', function () {
   return gulp.src( cssFiles )
     .pipe( sass( { outputStyle: 'compressed' } ) )
     .pipe( concat( 'tamagotchi.min.css' ) )
-    .pipe( gulp.dest( 'docs/_build/css' ) );
+    .pipe( gulp.dest( 'docs/build/css' ) );
 } );
 
 gulp.task( 'js', function() {
   return gulp.src( jsFiles )
         .pipe( babel( { presets: [ 'minify' ] } ) )
         .pipe( concat( 'tamagotchi.min.js' ) )
-        .pipe( gulp.dest( 'docs/_build/js' ) );
+        .pipe( gulp.dest( 'docs/build/js' ) );
 
 });
 
