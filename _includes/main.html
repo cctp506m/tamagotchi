@@ -1,7 +1,13 @@
-<main>
-  {% if homepage != true %}
-    <h1>{{ title }}</h1>
-  {% endif %}
+<div class="status-bar" aria-aria-hidden="true">
+  <a href="{{ '/' | url }}"><span class="fas fa-fw fa-home"></span>Home</a>
+  <dl>
+    <dt>Location:</dt>
+    <dd><a href="{{ page.url | url }}">https://cctp506m.github.io{{ page.url | url }}</a></dd>
+  </dl>
+</div>
 
-  {{ content }}
-</main>
+{% if homepage != true %}
+  <h1>{{ title }}</h1>
+{% endif %}
+
+{{ content }}

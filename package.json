@@ -18,6 +18,14 @@
   },
   "homepage": "https://github.com/cctp506m/tamagotchi#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "@babel/core": "^7.8.4",
+    "babel-preset-minify": "^0.5.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "include-media": "^1.4.9",
+    "node-sass": "^4.13.1"
   }
 }

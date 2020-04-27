@@ -1,0 +1,27 @@
+@import 'variables/color';
+@import 'variables/sizing';
+@import 'variables/typography';
+
+@import 'atom/typography';
+@import 'atom/image';
+@import 'atom/icons';
+
+@import '../../node_modules/include-media/dist/include-media';
+
+.tama {
+
+  @import 'template/base';
+  @import 'template/layout';
+
+  @import 'organism/header';
+  @import 'organism/nav';
+  @import 'organism/main';
+  @import 'organism/footer';
+
+  @import 'molecule/nav-menu';
+  @import 'molecule/status-bar';
+
+  @import 'atom/nav-link';
+  @import 'atom/button-link';
+
+}

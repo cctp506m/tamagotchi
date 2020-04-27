@@ -1,29 +1,48 @@
 ---
-title: Page title
+title: The Original Tamagotchi
 ---
 
 <!doctype html>
 
-<html>
+<html class="tama">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>
     {% if homepage != true %}
       {{ title }} |
     {% endif %}
-    Tamagotchi | Group M
+    The Original Tamagotchi | Group M
   </title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="{{ '/_build/css/tamagotchi.min.css' | url }}">
+
+  <script src="https://kit.fontawesome.com/d772444b1c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  {% include "header" %}
+  <div class="tama-container">
 
-  {% include "navigation" %}
+    <header class="tama-region tama-header">
+      {% include "header" %}
+    </header>
 
-  {% include "main" %}
+    <nav class="tama-nav">
+      {% include "navigation" %}
+    </nav>
 
-  {% include "footer" %}
+    <main class="tama-region tama-main">
+      {% include "main" %}
+    </main>
+
+    <footer class="tama-region tama-footer">
+      {% include "footer" %}
+    </footer>
+
+  </div>
 
 </body>
 </html>

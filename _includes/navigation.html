@@ -1,10 +1,26 @@
-<nav>
-  <ul>
-    <li><a href="{{ '/' | url }}">Home</a></li>
-    <li><a href="{{ '/about/' | url }}">About</a></li>
-    <li><a href="{{ '/architecture/' | url }}">Architecture</a></li>
-    <li><a href="{{ '/algorithm/' | url }}">Algorithm</a></li>
-    <li><a href="{{ '/system/' | url }}">System</a></li>
-    <li><a href="{{ '/bibliography/' | url }}">Bibliography</a></li>
-  </ul>
-</nav>
+<ul class="tama-nav-menu">
+  <li class="tama-nav-item">
+    <a class="tama-nav-link" href="{{ '/architecture/' | url }}">
+      <span class="fas fa-fw fa-egg"></span>
+      About Tama Pets
+    </a>
+  </li>
+  <li class="tama-nav-item">
+    <a class="tama-nav-link" href="{{ '/algorithm/' | url }}">
+      <span class="fas fa-fw fa-project-diagram"></span>
+      How Tamas Work
+    </a>
+  </li>
+  <li class="tama-nav-item">
+    <a class="tama-nav-link" href="{{ '/system/' | url }}">
+      <span class="fas fa-fw fa-fast-backward"></span>
+      Tama Nostalgia
+    </a>
+  </li>
+  <li class="tama-nav-item">
+    <a class="tama-nav-link" href="{{ '/bibliography/' | url }}">
+      <span class="fas fa-fw fa-book"></span>
+      More Tama Info
+    </a>
+  </li>
+</ul>
