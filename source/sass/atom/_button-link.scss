@@ -1,24 +1,57 @@
-$cct-size: 2rem;
-
-.cct-button {
-  display: inline-block;
-  border: 2px outset $cct-button-border;
-  box-shadow: $cct-button-shadow;
-  background-color: $cct-button-bg;
-  color: $cct-button-text;
-  font-size: 0.9rem;
-  line-height: 1;
-  font-family: $cct-button-font;
-  text-decoration: none;
-
-  img {
-    display: inline-block;
-    max-height: 2rem;
+.button {
+  &-menu {
+    list-style-type: none;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat( auto-fill, minmax( 9rem, 1fr) );
+    padding-left: 0;
   }
 
-  &:focus,
-  &:hover {
-    box-shadow: $cct-button-shadow-hover;
-    color: $cct-button-text-hover;
+  &-link {
+    display: block;
+    height: 2.5rem;
+    padding: 0.25rem;
+    border: 2px outset $button-border;
+    box-shadow: $button-shadow;
+    background-color: $button-bg;
+    color: $button-text;
+    line-height: 1;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      box-shadow: $button-shadow-hover;
+      background-color: $button-bg-hover;
+      color: $button-text-hover;
+    }
+
+    img {
+      max-height: 100%;
+    }
+
+
+
+    // Button variants.
+    &-cct {
+      background-color: $button-bg-cct;
+      color: $button-text-cct;
+
+      &:focus,
+      &:hover {
+        background-color: $button-bg-hover-cct;
+        color: $button-text-hover-cct;
+      }
+    }
+
+    &-gu {
+      background-color: $button-bg-gu;
+      color: $button-text-gu;
+
+      &:focus,
+      &:hover {
+        background-color: $button-bg-hover-gu;
+        color: $button-text-hover-gu;
+      }
+    }
   }
 }

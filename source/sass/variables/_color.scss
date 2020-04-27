@@ -1,7 +1,10 @@
 $white:                   #fff;
-$black:                   #000;
+$dust:                    #c2c8db;
+$black:                   #333;
 
 $cct:                     #5cbdea;
+$blue:                    #041e42;
+$gray:                    #63666a;
 
 $main:                    #33d3ca;
 $light:                   #fff3e5;
@@ -60,10 +63,21 @@ $nav-link-text-hover:     $dark;
 
 
 
-// CCT Button.
-$cct-button-bg:           $cct;
-$cct-button-border:       darken( $cct-button-bg, 15% );
-$cct-button-shadow:       2px 2px 0 0 rgba( $dark, 1);
-$cct-button-shadow-hover: -1px -1px 0 0 rgba( $dark, 1);
-$cct-button-text:         $white;
-$cct-button-text-hover:   $white;
+// Button links.
+$button-bg:               $dust;
+$button-bg-hover:         darken( $button-bg, 3% );
+$button-border:           darken( $button-bg, 15% );
+$button-shadow:           2px 2px 0 0 rgba( $dark, 1);
+$button-shadow-hover:     -1px -1px 0 0 rgba( $dark, 1);
+$button-text:             $dark;
+$button-text-hover:       $dark;
+
+$button-bg-cct:           $cct;
+$button-bg-hover-cct:     $button-bg-cct;
+$button-text-cct:         $white;
+$button-text-hover-cct:   $button-text-cct;
+
+$button-bg-gu:            $blue;
+$button-bg-hover-gu:      $button-bg-gu;
+$button-text-gu:          $white;
+$button-text-hover-gu:    $button-text-gu;
