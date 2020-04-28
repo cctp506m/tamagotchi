@@ -27,9 +27,10 @@
       margin-left: 0;
     }
 
-    a {
+    .address-bar {
       padding: 0.125rem 0.25rem;
-      border: 2px solid $status-bar-link-border;
+      border: 1px outset $status-bar-link-border;
+      box-shadow: $status-bar-box-shadow;
       background-color: $status-bar-link-bg;
       color: $status-bar-link-text;
       text-decoration: none;

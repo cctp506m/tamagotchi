@@ -1,4 +1,43 @@
 .button {
+
+  // Button blocks.
+
+  &-block {
+    display: block;
+    min-width: 4.5rem;
+    max-width: 5.5rem;
+    padding-top:$button-block-space-top;
+    padding-right: $button-block-space-right;
+    padding-bottom:$button-block-space-bottom;
+    padding-left: $button-block-space-left;
+    background-color: $button-block-bg;
+    border: 2px outset $button-block-border;
+    box-shadow: $button-block-box-shadow;
+    color: $button-block-text;;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-weight: 600;
+    font-family: $button-block-font;
+    text-align: center;
+    text-decoration: none;
+
+    [ class *= 'fa-' ] {
+      display: block;
+      margin-right: auto;
+      margin-bottom: $button-block-fa-space-bottom;
+      margin-left: auto;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    //Button block variants.
+    @at-root .tama-nav-info .button-block {
+      min-width: auto;
+      max-width: auto;
+    }
+  }
+
+  // Button badges.
   &-menu {
     list-style-type: none;
     display: grid;

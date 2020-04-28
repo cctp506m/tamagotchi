@@ -1,17 +1,18 @@
 // Typography variables.
 
-$baloo: 'Baloo 2', cursive;
-$lato:  'Lato', sans-serif;
-$prime: 'Courier Prime', monospace;
+$headings:    'Baloo 2', cursive;
+$sans-serif:  'Lato', sans-serif;
+$mono:        'Nanum Gothic Coding', monospace;
 
 
 
 // Site declarations.
-$body-font:       $lato;
-$heading-font:    $baloo;
+$body-font:         $sans-serif;
+$heading-font:      $headings;
 
 // Status bar.
-$status-bar-font: $prime;
+$status-bar-font:   $mono;
 
 // Button.
-$button-font:     $prime;
+$button-block-font: $mono;
+$button-font:       $mono;

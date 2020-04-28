@@ -1,5 +1,5 @@
 $white:                   #fff;
-$dust:                    #c2c8db;
+$dust:                    #ddd;
 $black:                   #333;
 
 $cct:                     #5cbdea;
@@ -67,13 +67,20 @@ $nav-link-text-hover:     $dark;
 
 // Status bar.
 $status-bar-border:       $dark;
-$status-bar-link-border:  $dark;
+$status-bar-link-border:  $dust;
+$status-bar-box-shadow:   inset 1px 1px 1px 1px rgba( $status-bar-border, 0.75 );
 $status-bar-link-bg:      lighten( $dust, 10% );
 $status-bar-link-text:    $dark;
 
 
 
 // Button links.
+$button-block-bg:         $dust;
+$button-block-border:     $dark;
+$button-block-box-shadow: inset -1px -1px 1px 1px rgba( $dark, 0.75 ),
+                          inset 1px 1px 1px 1px rgba( $white, 1 );
+$button-block-text:       $dark;
+
 $button-bg:               $dust;
 $button-bg-hover:         darken( $button-bg, 3% );
 $button-border:           darken( $button-bg, 15% );
