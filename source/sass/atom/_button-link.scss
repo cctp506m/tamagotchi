@@ -20,6 +20,11 @@
     text-align: center;
     text-decoration: none;
 
+    &:focus,
+    &:hover {
+      box-shadow: $button-block-box-shadow-hover;
+    }
+
     [ class *= 'fa-' ] {
       display: block;
       margin-right: auto;
