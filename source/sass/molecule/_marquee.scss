@@ -1,0 +1,17 @@
+@keyframes marquee {
+  0%   { transform:translateX( 100% ); }
+  100% { transform:translateX( -100% ); }
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+
+  p {
+    animation: marquee 20s ease infinite;
+    margin: 0;
+    padding: 0.5rem;
+    line-height: 1;
+    text-align: center;
+  }
+}

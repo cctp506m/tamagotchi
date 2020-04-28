@@ -13,7 +13,7 @@
     The Original Tamagotchi | Group M
   </title>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Courier+Nanum+Gothic+Coding:wght@400;700&display=swap">
   <link rel="stylesheet" href="/tamagotchi/build/css/tamagotchi.min.css">
 
   <script src="https://kit.fontawesome.com/d772444b1c.js" crossorigin="anonymous"></script>
@@ -28,30 +28,54 @@
 
     </header>
 
-    <nav class="tama-nav">
+    <nav class="tama-nav" aria-label="Main Navigation">
       <ul class="tama-nav-menu">
-  <li class="tama-nav-item">
+  <li class="tama-nav-item tama-nav-item-architecture">
     <a class="tama-nav-link" href="/tamagotchi/architecture/">
       <span class="fas fa-fw fa-egg"></span>
-      About Tama Pets
+      All About Tama
     </a>
   </li>
-  <li class="tama-nav-item">
+  <li class="tama-nav-item tama-nav-item-algorithm">
     <a class="tama-nav-link" href="/tamagotchi/algorithm/">
       <span class="fas fa-fw fa-project-diagram"></span>
       How Tamas Work
     </a>
   </li>
-  <li class="tama-nav-item">
+  <li class="tama-nav-item tama-nav-item-system">
     <a class="tama-nav-link" href="/tamagotchi/system/">
       <span class="fas fa-fw fa-fast-backward"></span>
-      Tama Nostalgia
+      Retro Nostalgia
     </a>
   </li>
-  <li class="tama-nav-item">
+  <li class="tama-nav-item tama-nav-item-biblio">
     <a class="tama-nav-link" href="/tamagotchi/bibliography/">
       <span class="fas fa-fw fa-book"></span>
-      More Tama Info
+      More Cool Links
+    </a>
+  </li>
+</ul>
+
+    </nav>
+
+    <nav class="tama-nav-info" aria-label="Info Links">
+      <ul class="tama-nav-info-menu">
+  <li class="tama-nav-info-item tama-nav-info-item-home">
+    <a class="button-block button-block-home" href="/tamagotchi/">
+      <span class="fas fa-fw fa-home"></span>
+      Home
+    </a>
+  </li>
+  <li class="tama-nav-info-item tama-nav-info-item-images">
+    <a class="button-block button-block-images" href="/tamagotchi/images/">
+      <span class="fas fa-fw fa-image"></span>
+      Images
+    </a>
+  </li>
+  <li class="tama-nav-info-item tama-nav-info-item-search">
+    <a class="button-block button-block-search" href="https://www.google.com/search?q=tamagotchi">
+      <span class="fas fa-fw fa-search"></span>
+      Search
     </a>
   </li>
 </ul>
@@ -60,10 +84,9 @@
 
     <main class="tama-region tama-main">
       <div class="status-bar" aria-aria-hidden="true">
-  <a href="/tamagotchi/"><span class="fas fa-fw fa-home"></span>Home</a>
   <dl>
     <dt>Location:</dt>
-    <dd><a href="/tamagotchi/architecture/device/">https://cctp506m.github.io/tamagotchi/architecture/device/</a></dd>
+    <dd><a class="address-bar" href="/tamagotchi/architecture/device/">https://cctp506m.github.io/tamagotchi/architecture/device/</a></dd>
   </dl>
 </div>
 
@@ -80,12 +103,12 @@
     <footer class="tama-region tama-footer">
       <p class="tama-footer-text">CCT 506 Group M footer information.</p>
 
-<nav class="button-nav">
-  <ul class="button-menu">
-    <li class="button-item"><a class="button-link button-link-cct" href="https://cct.georgetown.edu/" aria-label="CCT 506 Now!"><img src="/tamagotchi/build/img/cct.png"> 506 Now!</a></li>
-    <li class="button-item"><a class="button-link button-link-gu" href="https://georgetown.edu/">Georgetown University</a></li>
-    <li class="button-item"><a class="button-link button-link-github" href="https://github.com/cctp506m/tamagotchi">Project on GitHub</a></li>
-    <li class="button-item"><a class="button-link button-link-tama-wiki" href="https://tamagotchi.fandom.com/">Tamagotchi Wiki</a></li>
+<nav class="tama-footer-nav">
+  <ul class="tama-footer-menu">
+    <li class="tama-footer-item"><a class="tama-footer-nav-link button-badge button-badge-cct" href="https://cct.georgetown.edu/" aria-label="CCT 506 Now!"><img src="/tamagotchi/build/img/cct.png">506 Now!</a></li>
+    <li class="tama-footer-item"><a class="tama-footer-nav-link button-badge button-badge-gu" href="https://georgetown.edu/">Georgetown University</a></li>
+    <li class="tama-footer-item"><a class="tama-footer-nav-link button-badge button-badge-github" href="https://github.com/cctp506m/tamagotchi">Project on GitHub</a></li>
+    <li class="tama-footer-item"><a class="tama-footer-nav-link button-badge button-badge-tama-wiki" href="https://tamagotchi.fandom.com/">Tamagotchi Wiki</a></li>
   </ul>
 </nav>
 

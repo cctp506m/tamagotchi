@@ -19,7 +19,11 @@
   @import 'organism/footer';
 
   @import 'molecule/nav-menu';
+  @import 'molecule/nav-info-menu';
   @import 'molecule/status-bar';
+  @import 'molecule/footer-menu';
+
+  @import 'molecule/marquee';
 
   @import 'atom/nav-link';
   @import 'atom/button-link';

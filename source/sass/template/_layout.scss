@@ -23,9 +23,13 @@
   border: 2px outset $region-border;
 }
 
+&-nav-info {
+  grid-row: 4/5;
+}
 
 
-@include media( '>lg' ) {
+
+@include media( '>=lg' ) {
   &-container {
     grid-template-columns: 3fr 1fr;
   }
@@ -37,6 +41,11 @@
   &-nav {
     grid-column: 2/3;
     grid-row: 2/3;
+  }
+
+  &-nav-info {
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
 
   &-main {

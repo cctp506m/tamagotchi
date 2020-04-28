@@ -1,7 +1,10 @@
 &-nav {
   &-link {
     display: block;
-    padding: 0.5rem;
+    padding-top: $nav-link-space-top;
+    padding-right: $nav-link-space-right;
+    padding-bottom: $nav-link-space-bottom;
+    padding-left:$nav-link-space-left;
     background-color: $nav-link-bg;
     border: 2px outset $nav-link-border;
     box-shadow: $nav-link-shadow;

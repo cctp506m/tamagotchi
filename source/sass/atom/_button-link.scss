@@ -1,66 +1,99 @@
 .button {
-  &-menu {
-    list-style-type: none;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat( 2, 1fr );
-    padding-left: 0;
 
-    @include media( '>sm' ) { grid-template-columns: repeat( 3, 1fr ); }
-    @include media( '>md' ) { grid-template-columns: repeat( 4, 1fr ); }
-    @include media( '>lg' ) { grid-template-columns: repeat( auto-fill, minmax( 9rem, 1fr) ); }
+  // Button blocks.
+  &-block {
+    display: block;
+    min-width: 4.5rem;
+    max-width: 5.5rem;
+    padding-top:$button-block-space-top;
+    padding-right: $button-block-space-right;
+    padding-bottom:$button-block-space-bottom;
+    padding-left: $button-block-space-left;
+    background-color: $button-block-bg;
+    border: 2px outset $button-block-border;
+    box-shadow: $button-block-box-shadow;
+    color: $button-block-text;;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-weight: 600;
+    font-family: $button-block-font;
+    text-align: center;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      box-shadow: $button-block-box-shadow-hover;
+    }
+
+    [ class *= 'fa-' ] {
+      display: block;
+      margin-right: auto;
+      margin-bottom: $button-block-fa-space-bottom;
+      margin-left: auto;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    //Button block variants.
+    @at-root .tama-nav-info .button-block {
+      min-width: auto;
+      max-width: auto;
+    }
   }
 
-  &-link {
+  // Button badges.
+  &-badge {
     display: block;
-    height: 2.5rem;
-    padding: 0.25rem;
-    border: 2px outset $button-border;
-    box-shadow: $button-shadow;
-    background-color: $button-bg;
-    color: $button-text;
-    font-family: $button-font;
+    height: 2rem;
+    max-height: 3rem;
+    padding-top: $button-badge-space-top;
+    padding-right: $button-badge-space-right;
+    padding-bottom: $button-badge-space-bottom;
+    padding-left: $button-badge-space-left;
+    border: 2px outset $button-badge-border;
+    box-shadow: $button-badge-shadow;
+    background-color: $button-badge-bg;
+    color: $button-badge-text;
+    font-family: $button-badge-font;
+    font-size: 0.9rem;
     line-height: 1;
     text-decoration: none;
 
     &:focus,
     &:hover {
-      box-shadow: $button-shadow-hover;
-      background-color: $button-bg-hover;
-      color: $button-text-hover;
+      box-shadow: $button-badge-shadow-hover;
+      background-color: $button-badge-bg-hover;
+      color: $button-badge-text-hover;
     }
 
     img {
+      float: left;
       max-height: 100%;
+      margin-right: $button-badge-image-space;
     }
 
 
 
     // Button variants.
     &-cct {
-      background-color: $button-bg-cct;
-      color: $button-text-cct;
+      background-color: $button-badge-bg-cct;
+      color: $button-badge-text-cct;
 
       &:focus,
       &:hover {
-        background-color: $button-bg-hover-cct;
-        color: $button-text-hover-cct;
-      }
-
-      img {
-        margin-top: -0.25rem;
-        margin-left: -0.25rem;
+        background-color: $button-badge-bg-hover-cct;
+        color: $button-badge-text-hover-cct;
       }
     }
 
     &-gu {
-      background-color: $button-bg-gu;
-      color: $button-text-gu;
+      background-color: $button-badge-bg-gu;
+      color: $button-badge-text-gu;
 
       &:focus,
       &:hover {
-        background-color: $button-bg-hover-gu;
-        color: $button-text-hover-gu;
+        background-color: $button-badge-bg-hover-gu;
+        color: $button-badge-text-hover-gu;
       }
     }
   }

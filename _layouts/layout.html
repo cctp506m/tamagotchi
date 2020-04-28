@@ -16,7 +16,7 @@ title: The Original Tamagotchi
     The Original Tamagotchi | Group M
   </title>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Courier+Nanum+Gothic+Coding:wght@400;700&display=swap">
   <link rel="stylesheet" href="{{ '/build/css/tamagotchi.min.css' | url }}">
 
   <script src="https://kit.fontawesome.com/d772444b1c.js" crossorigin="anonymous"></script>
@@ -30,8 +30,12 @@ title: The Original Tamagotchi
       {% include "header" %}
     </header>
 
-    <nav class="tama-nav">
+    <nav class="tama-nav" aria-label="Main Navigation">
       {% include "navigation" %}
+    </nav>
+
+    <nav class="tama-nav-info" aria-label="Info Links">
+      {% include "info" %}
     </nav>
 
     <main class="tama-region tama-main">
