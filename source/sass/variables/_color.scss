@@ -1,100 +1,100 @@
-$white:                   #fff;
-$dust:                    #ddd;
-$black:                   #333;
+$white:                       #fff;
+$dust:                        #ddd;
+$black:                       #333;
 
-$cct:                     #5cbdea;
-$blue:                    #041e42;
-$gray:                    #63666a;
+$cct:                         #5cbdea;
+$blue:                        #041e42;
+$gray:                        #63666a;
 
-$main:                    #33d3ca;
-$light:                   #fff3e5;
-$accent:                  #d654a5;
-$bright:                  #f7941e;
-$dark:                    #3d4352;
+$main:                        #33d3ca;
+$light:                       #fff3e5;
+$accent:                      #d654a5;
+$bright:                      #f7941e;
+$dark:                        #3d4352;
 
 
 
 // Base body.
-$body-bg-color:           $white;
-$body-bg-image:           linear-gradient(
-                            135deg,
-                            rgba( $accent, 0.25 ) 15%,
-                            rgba( $bright, 0.25 ) 50%,
-                            rgba( $main, 0.35 ) 85%
-                          );
-$body-text:               $dark;
+$body-bg-color:               $white;
+$body-bg-image:               linear-gradient(
+                                135deg,
+                                rgba( $accent, 0.25 ) 15%,
+                                rgba( $bright, 0.25 ) 50%,
+                                rgba( $main, 0.35 ) 85%
+                              );
+$body-text:                   $dark;
 
 // Base links.
-$link-text:               $accent;
-$link-text-hover:         darken( $accent, 15% );
+$link-text:                   $accent;
+$link-text-hover:             darken( $accent, 15% );
 
 // Regions.
-$region-bg:               $light;
-$region-border:           $dark;
-$region-bg-image:         linear-gradient(
-                            180deg,
-                            rgba( $black, 0 ) 0.95rem,
-                            rgba( $black, 1 ) 1rem,
-                            rgba( $black, 0 ) 1.0625rem
-                          ),
-                          linear-gradient(
-                            180deg,
-                            rgba( $white, 0 ) 0%,
-                            rgba( $white, 0 ) 1rem,
-                            rgba( $white, 1 ) 1rem,
-                            rgba( $white, 1 ) 100%
-                          ),
-                          linear-gradient(
-                            90deg,
-                            rgba( $main, 0.5 ) 20%,
-                            rgba( $bright, 0.5) 60%,
-                            rgba( $accent, 0.5) 100%
-                          );
-$region-shadow:           2px 2px 0 0 rgba( $region-border, 1);
+$region-bg:                  $light;
+$region-border:               $dark;
+$region-bg-image:             linear-gradient(
+                                180deg,
+                                rgba( $black, 0 ) 0.95rem,
+                                rgba( $black, 1 ) 1rem,
+                                rgba( $black, 0 ) 1.0625rem
+                              ),
+                              linear-gradient(
+                                180deg,
+                                rgba( $white, 0 ) 0%,
+                                rgba( $white, 0 ) 1rem,
+                                rgba( $white, 1 ) 1rem,
+                                rgba( $white, 1 ) 100%
+                              ),
+                              linear-gradient(
+                                90deg,
+                                rgba( $main, 0.5 ) 20%,
+                                rgba( $bright, 0.5) 60%,
+                                rgba( $accent, 0.5) 100%
+                              );
+$region-shadow:               2px 2px 0 0 rgba( $region-border, 1);
 
 // Navigation.
-$nav-link-bg:             $light;
-$nav-link-bg-hover:       darken( $nav-link-bg, 10% );
-$nav-link-border:         $dark;
-$nav-link-shadow:         2px 2px 0 0 rgba( $nav-link-border, 1);
-$nav-link-shadow-hover:   -1px -1px 0 0 rgba( $nav-link-border, 1);
-$nav-link-text:           $dark;
-$nav-link-text-hover:     $dark;
+$nav-link-bg:                 $light;
+$nav-link-bg-hover:           darken( $nav-link-bg, 10% );
+$nav-link-border:             $dark;
+$nav-link-shadow:             2px 2px 0 0 rgba( $nav-link-border, 1);
+$nav-link-shadow-hover:       -1px -1px 0 0 rgba( $nav-link-border, 1);
+$nav-link-text:               $dark;
+$nav-link-text-hover:         $dark;
 
 
 
 // Main.
 
 // Status bar.
-$status-bar-border:       $dark;
-$status-bar-link-border:  $dust;
-$status-bar-box-shadow:   inset 1px 1px 1px 1px rgba( $status-bar-border, 0.75 );
-$status-bar-link-bg:      lighten( $dust, 10% );
-$status-bar-link-text:    $dark;
+$status-bar-border:           $dark;
+$status-bar-link-border:      $dust;
+$status-bar-box-shadow:       inset 1px 1px 1px 1px rgba( $status-bar-border, 0.75 );
+$status-bar-link-bg:          lighten( $dust, 10% );
+$status-bar-link-text:        $dark;
 
 
 
 // Button links.
-$button-block-bg:         $dust;
-$button-block-border:     $dark;
-$button-block-box-shadow: inset -1px -1px 1px 1px rgba( $dark, 0.75 ),
-                          inset 1px 1px 1px 1px rgba( $white, 1 );
-$button-block-text:       $dark;
+$button-block-bg:             $dust;
+$button-block-border:         $dark;
+$button-block-box-shadow:     inset -1px -1px 1px 1px rgba( $dark, 0.75 ),
+                              inset 1px 1px 1px 1px rgba( $white, 1 );
+$button-block-text:           $dark;
 
-$button-bg:               $dust;
-$button-bg-hover:         darken( $button-bg, 3% );
-$button-border:           darken( $button-bg, 15% );
-$button-shadow:           2px 2px 0 0 rgba( $dark, 1);
-$button-shadow-hover:     -1px -1px 0 0 rgba( $dark, 1);
-$button-text:             $dark;
-$button-text-hover:       $dark;
+$button-badge-bg:             $dust;
+$button-badge-bg-hover:       darken( $button-badge-bg, 3% );
+$button-badge-border:         darken( $button-badge-bg, 15% );
+$button-badge-shadow:         2px 2px 0 0 rgba( $dark, 1);
+$button-badge-shadow-hover:   -1px -1px 0 0 rgba( $dark, 1);
+$button-badge-text:           $dark;
+$button-badge-text-hover:     $dark;
 
-$button-bg-cct:           $cct;
-$button-bg-hover-cct:     $button-bg-cct;
-$button-text-cct:         $white;
-$button-text-hover-cct:   $button-text-cct;
+$button-badge-bg-cct:         $cct;
+$button-badge-bg-hover-cct:   $button-badge-bg-cct;
+$button-badge-text-cct:       $white;
+$button-badge-text-hover-cct: $button-badge-text-cct;
 
-$button-bg-gu:            $blue;
-$button-bg-hover-gu:      $button-bg-gu;
-$button-text-gu:          $white;
-$button-text-hover-gu:    $button-text-gu;
+$button-badge-bg-gu:          $blue;
+$button-badge-bg-hover-gu:    $button-badge-bg-gu;
+$button-badge-text-gu:        $white;
+$button-badge-text-hover-gu:  $button-badge-text-gu;
