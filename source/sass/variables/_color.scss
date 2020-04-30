@@ -16,7 +16,7 @@ $dark:                          #3d4352;
 
 // Base body.
 $body-bg-color:                 $white;
-$body-bg-image:                 linear-gradient(
+$body-bg-gradient:              linear-gradient(
                                   135deg,
                                   rgba( $accent, 0.25 ) 15%,
                                   rgba( $bright, 0.25 ) 50%,

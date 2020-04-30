@@ -1,8 +1,10 @@
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   background-color: $body-bg-color;
-  background-image: $body-bg-image;
+  background-image:
+    url( '../img/stripe.png' ),
+    $body-bg-gradient;
   color: $body-text;
 }
