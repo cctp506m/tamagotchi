@@ -14,11 +14,12 @@ body {
 a {
   transition: all 0.5s ease;
   color: $link-text;
+  text-decoration: none;
 
   &:focus,
   &:hover {
     color: $link-text-hover;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
