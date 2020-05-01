@@ -1,0 +1,12 @@
+&-bibliography {}
+
+&-reference {
+  margin-left: $biblio-reference-text-space;
+  text-indent: -$biblio-reference-text-space;
+}
+
+&-annotation {
+  margin-top: $biblio-annotation-top-space;
+  margin-bottom: $biblio-annotation-bottom-space;
+  margin-left: 0;
+}
