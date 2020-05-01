@@ -28,3 +28,9 @@ a {
 h1 {
   font-family: $heading-font;
 }
+
+
+
+[ class*='fa-' ] {
+  transition: all 0.5s ease;
+}

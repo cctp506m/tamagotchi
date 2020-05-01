@@ -7,44 +7,52 @@ $breakpoints: (
 
 
 
-$space:                        1rem;
+$space:                              1rem;
 
-$h-space:                      $space;
-$v-space:                      $space;
+$h-space:                            $space;
+$v-space:                            $space;
 
-$container-space:              $space;
-$container-grid-space:         $space;
-$container-space-top:          $container-space;
-$container-space-right:        $container-space;
-$container-space-bottom:       $container-space;
-$container-space-left:         $container-space;
+$container-space:                    $space;
+$container-grid-space:               $space;
+$container-space-top:                $container-space;
+$container-space-right:              $container-space;
+$container-space-bottom:             $container-space;
+$container-space-left:               $container-space;
 
-$region-space:                 $space;
-$region-space-top:             $region-space * 2;
-$region-space-right:           $region-space;
-$region-space-bottom:          $region-space;
-$region-space-left:            $region-space;
+$region-space:                       $space;
+$region-space-top:                   $region-space * 2;
+$region-space-right:                 $region-space;
+$region-space-bottom:                $region-space;
+$region-space-left:                  $region-space;
 
-$nav-space:                    $space;
-$nav-link-space-top:           $nav-space;
-$nav-link-space-right:         $nav-space;
-$nav-link-space-bottom:        $nav-space;
-$nav-link-space-left:          $nav-space;
+$nav-space:                          $space;
+$nav-space-gap:                      $nav-space;
+$nav-link-space-top:                 $nav-space;
+$nav-link-space-right:               $nav-space;
+$nav-link-space-bottom:              $nav-space;
+$nav-link-space-left:                $nav-space;
 
-$marquee-space:                $space;
-$marquee-space-top:            $marquee-space;
-$marquee-space-bottom:         $marquee-space;
+$nav-content-space:                  $space;
+$nav-content-space-gap:              $nav-content-space * 2;
+$nav-content-space-margin-top-md:    $nav-content-space * 2;
+$nav-content-space-margin-bottom-md: $nav-content-space * 2;
+$nav-content-space-margin-top-lg:    $nav-content-space * 3;
+$nav-content-space-margin-bottom-lg: $nav-content-space * 3;
 
-$button-badge-space:           $space / 4;
-$button-badge-space-top:       $button-badge-space;
-$button-badge-space-right:     $button-badge-space;
-$button-badge-space-bottom:    $button-badge-space;
-$button-badge-space-left:      $button-badge-space;
-$button-badge-image-space:     $button-badge-space * 3;
+$marquee-space:                      $space;
+$marquee-space-top:                  $marquee-space;
+$marquee-space-bottom:               $marquee-space;
 
-$button-block-space:           $space / 2;
-$button-block-space-top:       $button-block-space;
-$button-block-space-right:     $button-block-space;
-$button-block-space-bottom:    $button-block-space;
-$button-block-space-left:      $button-block-space;
-$button-block-fa-space-bottom: $button-block-space / 2;
+$button-badge-space:                 $space / 4;
+$button-badge-space-top:             $button-badge-space;
+$button-badge-space-right:           $button-badge-space;
+$button-badge-space-bottom:          $button-badge-space;
+$button-badge-space-left:            $button-badge-space;
+$button-badge-image-space:           $button-badge-space * 3;
+
+$button-block-space:                 $space / 2;
+$button-block-space-top:             $button-block-space;
+$button-block-space-right:           $button-block-space;
+$button-block-space-bottom:          $button-block-space;
+$button-block-space-left:            $button-block-space;
+$button-block-fa-space-bottom:       $button-block-space / 2;

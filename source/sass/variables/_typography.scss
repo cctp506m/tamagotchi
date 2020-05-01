@@ -7,15 +7,18 @@ $mono:        'Nanum Gothic Coding', monospace;
 
 
 // Site declarations.
-$body-font:         $sans-serif;
-$heading-font:      $headings;
+$body-font:             $sans-serif;
+$heading-font:          $headings;
 
 // Status bar.
-$status-bar-font:   $mono;
+$status-bar-font:       $mono;
 
 // Marquee.
-$marquee-font:      $headings;
+$marquee-font:          $headings;
+
+// Table of contents.
+$nav-link-content-text: $headings;
 
 // Button.
-$button-block-font: $mono;
-$button-badge-font: $mono;
+$button-block-font:     $mono;
+$button-badge-font:     $mono;
