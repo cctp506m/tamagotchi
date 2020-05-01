@@ -3,15 +3,22 @@
   100% { transform:translateX( -100% ); }
 }
 
-.marquee {
+&-marquee {
   overflow: hidden;
   position: relative;
+  width: 100%;
+  margin-top: $marquee-space;
+  margin-bottom: $marquee-space;
 
-  p {
+  &-scroll {
     animation: marquee 20s ease infinite;
+    display: inline-block;
     margin: 0;
     padding: 0.5rem;
+    font-size: 1.5rem;
     line-height: 1;
+    font-weight: 500;
+    font-family: $marquee-font;
     text-align: center;
   }
 }

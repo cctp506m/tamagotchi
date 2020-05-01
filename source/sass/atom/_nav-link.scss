@@ -1,22 +1,58 @@
 &-nav {
   &-link {
     display: block;
-    padding-top: $nav-link-space-top;
-    padding-right: $nav-link-space-right;
-    padding-bottom: $nav-link-space-bottom;
-    padding-left:$nav-link-space-left;
-    background-color: $nav-link-bg;
-    border: 2px outset $nav-link-border;
-    box-shadow: $nav-link-shadow;
-    color: $nav-link-text;
-    line-height: 1;
-    text-decoration: none;
 
-    &:focus,
-    &:hover {
-      background-color: $nav-link-bg-hover;
-      box-shadow: $nav-link-shadow-hover;
-      color: $nav-link-text-hover;
+    // Main navigation.
+    &-nav {
+      padding-top: $nav-link-space-top;
+      padding-right: $nav-link-space-right;
+      padding-bottom: $nav-link-space-bottom;
+      padding-left:$nav-link-space-left;
+      background-color: $nav-link-bg;
+      border: 2px outset $nav-link-border;
+      box-shadow: $nav-link-shadow;
+      color: $nav-link-text;
+      line-height: 1;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        background-color: $nav-link-bg-hover;
+        box-shadow: $nav-link-shadow-hover;
+        color: $nav-link-text-hover;
+      }
+    }
+
+    // Table of contents.
+    &-content {
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: $nav-link-content-text;
+      text-decoration: none;
+
+      [ class*='fa-' ] {
+        display: block;
+        margin-right: auto;
+        margin-bottom: 0.5rem;
+        margin-left: auto;
+        padding: 1.5rem 1.25rem;
+        border: 0.25rem solid $nav-link-content-icon-border;
+        border-radius: 50%;
+        font-size: 3rem;
+      }
+
+      &:focus,
+      &:hover {
+        text-decoration: none;
+
+      [ class*='fa-' ] {
+          border-color: $nav-link-content-icon-border-hover;
+          background-color: $nav-link-content-icon-bg-hover;
+          color: $nav-link-content-icon-text-hover;
+        }
+      }
     }
   }
+
+
 }

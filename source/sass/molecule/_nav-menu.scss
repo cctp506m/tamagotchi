@@ -2,7 +2,7 @@
   &-menu {
     list-style-type: none;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: $nav-space-gap;
     grid-template-columns: auto;
     padding-left: 0;
 
@@ -12,6 +12,23 @@
 
     @include media( '>=lg' ) {
       grid-template-columns: auto;
+    }
+
+
+    // Table of contents.
+    &-content {
+      grid-gap: $nav-content-space-gap;
+      margin-top: $nav-content-space-margin-top-md;
+      margin-bottom: $nav-content-space-margin-bottom-md;
+
+      @include media( '>=md' ) {
+        margin-top: $nav-content-space-margin-top-lg;
+        margin-bottom: $nav-content-space-margin-bottom-lg;
+      }
+
+      @include media( '>=lg' ) {
+        grid-template-columns: repeat( 2, 1fr );
+      }
     }
   }
 }
