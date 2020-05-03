@@ -3,8 +3,6 @@ title: Architecture
 layout: layout.html
 ---
 
-<p>A combined description of the Tamagotchi architecture. An annotated diagram, holistic view. The links below go to further information from the annotations.</p>
-
 <ul>
   <li><a href="{{ '/architecture/box/' | url }}">The Box</a></li>
   <li><a href="{{ '/architecture/keychain/' | url }}">The Keychain</a></li>
@@ -12,3 +10,53 @@ layout: layout.html
   <li><a href="{{ '/architecture/gameplay/' | url }}">The Gameplay</a></li>
   <li><a href="{{ '/architecture/hardware/' | url }}">The Hardware</a></li>
 </ul>
+
+<p>A combined description of the Tamagotchi architecture. An annotated diagram, holistic view. The links below go to further information from the annotations.</p>
+
+<div class="tama-diagram tama-diagram-box">
+  <p>Box diagram. Further information is found in the section on <a href="{{ '/architecture/box/' | url }}">the box</a>.</p>
+</div>
+
+<div class="tama-diagram tama-diagram-device">
+  <p>
+    <img class="tama-diagram-image" src="{{ '/build/img/tamagotchi-diagram.png' | url }}" aria-describedby="info-device"><br>
+    Figure 1. a diagram of a Tamagotchi showing its keychain, dimensions, buttons. Further information is found in the sections on <a href="{{ '/architecture/keychain/' | url }}">the keychain</a> and <a href="{{ '/architecture/device/' | url }}">the Tamagotchi device</a>.</p>
+    <ul class="info-annotations" id="info-device">
+      <li class="info-label info-device-keychain">Keychain: a ball chain with a clasp, and/or a hole where a keychain can be attached.</li>
+      <li class="info-label info-device-shape">Shape: egg, smooth. Variety of designs and colors.</li>
+      <li class="info-label info-device-size">Size: 1.2" width, 0.5" depth, 1.5" height.</li>
+      <li class="info-label info-device-screen">Screen: LCD (Liquid Crystal Display).</li>
+      <li class="info-label info-device-size">Resolution: 32 x 20 px.</li>
+      <li class="info-label info-device-buttons">Game buttons: three; A, B, C. Function varies on activity.</li>
+    </ul>
+</div>
+
+<div class="tama-diagram tama-diagram-back">
+  <p>
+    <img class="tama-diagram-image" src="{{ '/build/img/tamagotchi-back.png' | url }}" aria-describedby="info-back"><br>
+    Figure 2. a diagram of the back of a Tamagotchi showing its battery compartment. Further information is found in the section on <a href="{{ '/architecture/device/' | url }}">the Tamagotchi device</a>.</p>
+    <ul class="info-annotations" id="info-back">
+      <li class="info-label info-back-battery">Battery case.</li>
+      <li class="info-label info-back-reset">Reset button.</li>
+    </ul>
+</div>
+
+<div class="tama-diagram tama-diagram-gameplay">
+  <p>
+    <img class="tama-diagram-image" src="{{ '/build/img/tamagotchi-diagram.png' | url }}" aria-describedby="info-gameplay"><br>
+    Figure 3. a diagram of a Tamagotchi showing its on-screen functions for gameplay, represented by various icons. Further information is found in the section on <a href="{{ '/architecture/gameplay/' | url }}">Tamagotchi gamplay</a>.</p>
+    <ul class="info-annotations" id="info-gameplay">
+      <li class="info-label info-gameplay-feed">Knife and fork: feed the Tamagotchi.</li>
+      <li class="info-label info-gameplay-light">Lightbulb: turn the lights off when the tama is sleeping.</li>
+      <li class="info-label info-gameplay-play">Ball and bat: play a game with the tama.</li>
+      <li class="info-label info-gameplay-medicine">Syringe: give the Tamagotchi medicine when it is sick.</li>
+      <li class="info-label info-gameplay-duck">Duck or poo: clean up the tama's droppings.</li>
+      <li class="info-label info-gameplay-health">Meter: keep track of Tamagotchi's health.</li>
+      <li class="info-label info-gameplay-discipline">Shouting: discipline the tama if it is misbehaving.</li>
+      <li class="info-label info-gameplay-attention">Happy and sad faces: the tama is asking for attention.</li>
+    </ul>
+</div>
+
+<div class="tama-diagram tama-diagram-hardware">
+  <p>Hardware diagram. Further information is found in the section on <a href="{{ '/architecture/hardware/' | url }}">the hardware</a>.</p>
+</div>
