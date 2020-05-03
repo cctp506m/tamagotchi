@@ -44,9 +44,11 @@ $marquee-space-top:                  $marquee-space;
 $marquee-space-bottom:               $marquee-space;
 
 $biblio-space:                       $space;
-$biblio-reference-text-space:        $space * 2.5;
-$biblio-annotation-top-space:        $biblio-space;
-$biblio-annotation-bottom-space:     $biblio-space * 2;
+$biblio-left-space:                  0;
+$biblio-reference-text-space:        $biblio-space * 2.5;
+$biblio-reference-space-bottom:      $biblio-space;
+$biblio-annotation-space-top:        $biblio-space;
+$biblio-annotation-space-bottom:     $biblio-space * 2;
 
 $button-badge-space:                 $space / 4;
 $button-badge-space-top:             $button-badge-space;
