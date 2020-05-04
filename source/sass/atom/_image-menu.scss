@@ -1,0 +1,14 @@
+&-image {
+  &-image {
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  &-text {
+    margin-top: 0.5rem;
+
+    @include media( '>=lg') {
+      margin-top: 0;
+    }
+  }
+}
