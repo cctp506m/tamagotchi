@@ -40,6 +40,10 @@ title: The Tamagotchi Project
 
     <main class="tama-region tama-main">
       {% include "main" %}
+
+      {% if citation == true %}
+        <p>Read all <a href="{{ '/bibliography/' | url }}">works cited and referenced</a> on this page and website.</p>
+      {% endif %}
     </main>
 
     <footer class="tama-region tama-footer">
