@@ -1,0 +1,13 @@
+&-image {
+  &-menu {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    list-style-type: none;
+    padding-left: 0;
+
+    @include media( '>=sm') {
+      grid-template-columns: repeat( 2, 1fr );
+    }
+  }
+}

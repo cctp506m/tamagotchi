@@ -17,6 +17,7 @@
   @import 'organism/nav';
   @import 'organism/main';
   @import 'organism/footer';
+  @import 'organism/image-menu';
 
   @import 'molecule/nav-menu';
   @import 'molecule/nav-info-menu';
@@ -26,6 +27,7 @@
   @import 'molecule/marquee';
   @import 'molecule/diagram';
   @import 'molecule/bibliography';
+  @import 'molecule/image-menu';
 
   @import 'atom/nav-item';
   @import 'atom/nav-link';
@@ -33,5 +35,6 @@
   @import 'atom/diagram-image';
   @import 'atom/bibliography-reference';
   @import 'atom/bibliography-annotation';
+  @import 'atom/image-menu';
 
 }
