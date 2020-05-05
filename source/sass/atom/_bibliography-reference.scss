@@ -2,4 +2,10 @@
   margin-left: $biblio-reference-text-space;
   text-indent: -$biblio-reference-text-space;
   margin-bottom: $biblio-reference-space-bottom;
+
+  a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
 }
