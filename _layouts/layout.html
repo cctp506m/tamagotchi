@@ -24,13 +24,17 @@ title: The Tamagotchi Project
 
 <body>
 
+  <nav class="tama-skip" aria-label="Skip Links">
+    {% include "skip-links" %}
+  </nav>
+
   <div class="tama-container">
 
     <header class="tama-region tama-header">
       {% include "header" %}
     </header>
 
-    <nav class="tama-nav" aria-label="Main Navigation">
+    <nav id="nav" class="tama-nav" aria-label="Main Navigation">
       {% include "navigation" %}
     </nav>
 
@@ -38,7 +42,7 @@ title: The Tamagotchi Project
       {% include "info" %}
     </nav>
 
-    <main class="tama-region tama-main">
+    <main id="main" class="tama-region tama-main" aria-label="Main Content">
       {% include "main" %}
 
       {% if citation == true %}

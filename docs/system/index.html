@@ -21,6 +21,14 @@
 
 <body>
 
+  <nav class="tama-skip" aria-label="Skip Links">
+    <ul class="tama-skip-menu">
+  <li class="tama-skip-item"><a class="tama-skip-link button-badge" href="#nav">Skip to main navigation</a></li>
+  <li class="tama-skip-item"><a class="tama-skip-link button-badge" href="#main">Skip to main content</a></li>
+</ul>
+
+  </nav>
+
   <div class="tama-container">
 
     <header class="tama-region tama-header">
@@ -29,7 +37,7 @@
 
     </header>
 
-    <nav class="tama-nav" aria-label="Main Navigation">
+    <nav id="nav" class="tama-nav" aria-label="Main Navigation">
       <ul class="tama-nav-menu">
   <li class="tama-nav-item tama-nav-item-architecture">
     <a class="tama-nav-link tama-nav-link-nav" href="/tamagotchi/architecture/">
@@ -83,7 +91,7 @@
 
     </nav>
 
-    <main class="tama-region tama-main">
+    <main id="main" class="tama-region tama-main" aria-label="Main Content">
       <div class="status-bar" aria-aria-hidden="true">
   <dl>
     <dt>Location:</dt>
@@ -112,7 +120,7 @@
     </main>
 
     <footer class="tama-region tama-footer">
-      <nav class="tama-footer-nav">
+      <nav class="tama-footer-nav" aria-label="Button Links">
   <ul class="tama-footer-menu">
     <li class="tama-footer-item"><a class="tama-footer-nav-link button-badge button-badge-cct" href="https://cct.georgetown.edu/" aria-label="CCT 506 Now!"><img src="/tamagotchi/build/img/cct.png">506 Now!</a></li>
     <li class="tama-footer-item"><a class="tama-footer-nav-link button-badge button-badge-gu" href="https://georgetown.edu/">Georgetown University</a></li>
